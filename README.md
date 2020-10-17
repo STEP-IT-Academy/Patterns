@@ -1,2 +1,2 @@
-# Patterns
-Implementation of some patterns using C#
+# Homework 2 task 
+## Implementation of Adapter, Bridge, Prototype design patterns.
