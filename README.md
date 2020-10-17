@@ -1,2 +1,2 @@
-# Patterns
-Implementation of some patterns using C#
+# Homework 1 task 
+## Implementation of Flyweight and Proxy design patterns.
