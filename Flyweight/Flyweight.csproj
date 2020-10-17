@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02C75414-6610-411B-8B07-9816A5773BEB}</ProjectGuid>
+    <ProjectGuid>{D817BEA0-1625-41F4-B597-A42ED0E7E9DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Decorator</RootNamespace>
-    <AssemblyName>Decorator</AssemblyName>
+    <RootNamespace>Flyweight</RootNamespace>
+    <AssemblyName>Flyweight</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pizza%27s\ItalianPizza.cs" />
-    <Compile Include="Pizza%27s\JapanPizza.cs" />
-    <Compile Include="Pizza%27s\Pizza.cs" />
-    <Compile Include="Pizza%27s_Decorators\Cheese.cs" />
-    <Compile Include="Pizza%27s_Decorators\PizzaDecorator.cs" />
-    <Compile Include="Pizza%27s_Decorators\Tomato.cs" />
+    <Compile Include="BrickHouse.cs" />
+    <Compile Include="House.cs" />
+    <Compile Include="HouseFactory.cs" />
+    <Compile Include="PanelHouse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

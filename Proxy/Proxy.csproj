@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{499313B4-9C1F-48C6-8DA4-272997B16EB5}</ProjectGuid>
+    <ProjectGuid>{DDFAC685-0975-4749-9DED-5B23041829D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Facade</RootNamespace>
-    <AssemblyName>Facade</AssemblyName>
+    <RootNamespace>Proxy</RootNamespace>
+    <AssemblyName>Proxy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IShop.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Programmer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VSFacade\CLR.cs" />
-    <Compile Include="VSFacade\Compiler.cs" />
-    <Compile Include="VSFacade\TextEditor.cs" />
-    <Compile Include="VSFacade\VisualStudioFacade.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="ShopProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
