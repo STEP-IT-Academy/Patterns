@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstrcatFactory", "Abstrcat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{7133C016-32FC-4002-A58A-C8D8F8D16E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Patterns\Builder.csproj", "{F3DF19F4-123E-4D9B-820D-6539D4EF5106}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{F3DF19F4-123E-4D9B-820D-6539D4EF5106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
