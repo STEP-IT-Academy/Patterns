@@ -1,2 +1,2 @@
-# Homework 1 task 
+# Homework 1
 ## Implementation of Abstract factory, Builder, Factory method design patterns.
